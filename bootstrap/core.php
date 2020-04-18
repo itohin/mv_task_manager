@@ -24,4 +24,3 @@ function dd($value)
     die();
 }
 
-dd($config);
