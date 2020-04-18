@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class Controller
 {
-    public function flushErrors()
+    function flushErrors()
     {
         if (isset($_SESSION['errors'])) {
             unset($_SESSION['errors']);

@@ -23,6 +23,15 @@ class Validator
         return null;
     }
 
+    public function email($input)
+    {
+        if (!filter_var($this->inputs[$input], FILTER_VALIDATE_EMAIL)) {
+            return "The {$input} field must be a valid email";
+        }
+
+        return null;
+    }
+
     public function hasErrors()
     {
         return !empty($this->errors);
