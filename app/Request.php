@@ -15,4 +15,14 @@ class Request
     {
         return $_SERVER['REQUEST_METHOD'];
     }
+
+    public static function getParam($param)
+    {
+        return $_SERVER[$param] ?? null ;
+    }
+
+    public static function all()
+    {
+        return $_REQUEST;
+    }
 }

@@ -2,12 +2,16 @@
 
 namespace App;
 
+use App\Auth\Auth;
+
 class Router
 {
     public $routes = [
         'GET' => [],
         'POST' => []
     ];
+
+    public $auth = [];
 
     public static function load($file)
     {
@@ -18,24 +22,28 @@ class Router
         return $router;
     }
 
-    public function get($uri, $controller)
+    public function get($uri, $controller, $auth = false)
     {
+        if ($auth) {
+            $this->auth['GET'][] = $uri;
+        }
         $this->routes['GET'][$uri] = $controller;
     }
 
-    public function post($uri, $controller)
+    public function post($uri, $controller, $auth = false)
     {
+        if ($auth) {
+            $this->auth['POST'][] = $uri;
+        }
         $this->routes['POST'][$uri] = $controller;
     }
 
     public function direct($uri, $requestType)
     {
+
         //Simple routes
         if (array_key_exists($uri, $this->routes[$requestType])) {
-
-            return $this->callAction(
-                ...explode('@', $this->routes[$requestType][$uri])
-            );
+            return $this->route($uri, $requestType);
         }
 
         //Wildcard routes
@@ -47,9 +55,8 @@ class Router
         foreach ($routes as $route => $handler) {
             $pattern = str_replace('{id}', '([\d]+)', $route);
             preg_match('~'.$pattern.'~', $uri, $matches);
-            if (isset($matches[1])) {
-                [$controller, $action] = explode('@', $this->routes[$requestType][$route]);
-                return $this->callAction($controller, $action, $matches[1]);
+            if (isset($matches[1]) && $matches[0] === $uri) {
+                return $this->route($route, $requestType, $matches[1]);
             }
         }
 
@@ -57,13 +64,24 @@ class Router
 
     }
 
+    protected function route($uri, $requestType, $param = null)
+    {
+        [$controller, $action] = explode('@', $this->routes[$requestType][$uri]);
+        $next = $this->callAction($controller, $action, $param);
+
+        if (in_array($uri, $this->auth[$requestType])) {
+            return Auth::next($next);
+        }
+        return $next;
+    }
+
     protected function callAction($controller, $action, $id = null)
     {
-        $controller = "App\\Controllers\\{$controller}";
-        $controller = new $controller;
+        $controllerName = "App\\Controllers\\{$controller}";
+        $controller = new $controllerName;
 
         if (!method_exists($controller, $action)) {
-            throw new \Exception("{$controller} does not respond to the {$action} method.");
+            throw new \Exception("{$controllerName} does not respond to the {$action} method.");
         }
 
         return $controller->$action($id);

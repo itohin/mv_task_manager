@@ -11,8 +11,13 @@ App::bind('db', new QueryBuilder(
 
 function view($name, $data = [])
 {
+    ob_start();
     extract($data);
-    return require "views/{$name}.view.php";
+    $extends = null;
+    require "../views/{$name}.view.php";
+    $content = ob_get_clean();
+
+    return require "../views/layouts/app.view.php";
 }
 
 function dd($value)
