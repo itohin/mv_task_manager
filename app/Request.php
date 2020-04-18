@@ -16,9 +16,9 @@ class Request
         return $_SERVER['REQUEST_METHOD'];
     }
 
-    public static function getParam($param)
+    public static function get($param)
     {
-        return $_SERVER[$param] ?? null ;
+        return $_REQUEST[$param] ?? null ;
     }
 
     public static function all()

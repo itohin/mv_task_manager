@@ -6,7 +6,8 @@ class TasksController
 {
     public function index()
     {
-        echo 'Tasks list';
+        $tasks = [];
+        return view('tasks/index', compact('tasks'));
     }
 
     public function show($id)
