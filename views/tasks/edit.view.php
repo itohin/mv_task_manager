@@ -53,6 +53,12 @@ $old = isset($_SESSION["old"]) ? $_SESSION["old"] : null;
                     endif;
                     ?>
                 </div>
+                <div class="form-group mt-5 mb-5">
+                    <div class="custom-control custom-checkbox">
+                        <input name="done" type="checkbox" class="custom-control-input"<?= $task->done ? 'checked' : '' ?> id="done">
+                        <label class="custom-control-label" for="done">Done</label>
+                    </div>
+                </div>
                 <div class="form-group text-center">
                     <button class="btn btn-primary w-100">Update</button>
                 </div>

@@ -17,7 +17,7 @@ class TasksController extends Controller
         $startingLimit = ($page - 1) * $limit;
 
 
-        $tasks = App::get('db')->paginate('tasks', $startingLimit, $limit);
+        $tasks = App::get('db')->select('tasks')->paginate($startingLimit, $limit)->get();
         return view('tasks/index', compact('tasks', 'total', 'page'));
     }
 
@@ -66,11 +66,14 @@ class TasksController extends Controller
         $this->flushErrors();
         $date = date('Y-m-d H:i:s');
 
+        $done = boolval(Request::get('done'));
         $fields = [
             'name' => htmlspecialchars(Request::get('name')),
             'email' => Request::get('email'),
             'content' => htmlspecialchars(Request::get('content')),
-            'updated_at' => $date
+            'updated_at' => $date,
+            'done' => intval($done),
+            'id' => $id
         ];
 
         App::get('db')->update('tasks', $fields, $id);

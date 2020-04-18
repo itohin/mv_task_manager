@@ -7,19 +7,11 @@ use PDO;
 class QueryBuilder
 {
     protected $pdo;
+    public $statement;
 
     public function __construct($pdo)
     {
         $this->pdo = $pdo;
-    }
-
-    public function selectAll($table)
-    {
-        $statement = $this->pdo->prepare("select * from {$table}");
-
-        $statement->execute();
-
-        return $statement->fetchAll(PDO::FETCH_CLASS);
     }
 
     public function find($table, $id)
@@ -31,7 +23,6 @@ class QueryBuilder
         return $statement->fetch(PDO::FETCH_OBJ);
     }
 
-
     public function count($table)
     {
         $statement = $this->pdo->prepare("select count(*) from {$table}");
@@ -41,9 +32,25 @@ class QueryBuilder
         return $statement->fetchColumn();
     }
 
-    public function paginate($table, $startLimit, $rowsPerPage)
+    public function select($table)
     {
-        $statement = $this->pdo->prepare("select * from {$table} order by id desc limit {$startLimit}, {$rowsPerPage}");
+        $statement = "select * from {$table} order by id desc";
+
+        $this->statement = $statement;
+
+        return $this;
+    }
+
+    public function paginate($startLimit, $rowsPerPage)
+    {
+        $this->statement .= " limit {$startLimit}, {$rowsPerPage}";
+
+        return $this;
+    }
+
+    public function get()
+    {
+        $statement = $this->pdo->prepare($this->statement);
 
         $statement->execute();
 
@@ -70,18 +77,21 @@ class QueryBuilder
 
     public function update($table, $parameters, $id)
     {
-        $parameters = array
-
-        $sql = sprintf(
-            'update %s set (%s) where id = :id',
-            $table,
-            implode(', ', array_keys($parameters))
-        );
-
-        dd($sql);
+        $placeholders = array_reduce(array_keys($parameters), function ($carry, $item) use ($id) {
+            if ('id' != $item) {
+                $carry .= "{$item} = :{$item}, ";
+            }
+            return $carry;
+        }, '');
+        $placeholders = rtrim($placeholders, ", ");
+        $sql = "update {$table} set {$placeholders} where id = :id";
 
         try {
-            $parameters['id'] = $id;
+            $parameters = array_reduce(array_keys($parameters), function ($carry, $item) use ($parameters) {
+                $key = ':' . $item;
+                $carry[$key] = $parameters[$item];
+                return $carry;
+            }, []);
             $statement = $this->pdo->prepare($sql);
             $result = $statement->execute($parameters);
             return $result;
