@@ -1,3 +1,10 @@
+<?php
+    if (isset($_SESSION['flash'])) {
+        $flash = $_SESSION['flash'];
+    }
+    flushFlashes();
+?>
+
 <section class="jumbotron text-center">
     <div class="container">
         <h1>Tasks List</h1>
@@ -6,6 +13,17 @@
 </section>
 
 <div class="container w-75 pb-5">
+
+    <?php if (isset($flash)) : ?>
+        <div class="container mb-5">
+            <div class="alert alert-success text-center" role="alert">
+                <?= $flash ?>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+    <?php endif ?>
 
     <div class="mb-5">
         <div class="d-flex justify-content-center">

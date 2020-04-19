@@ -2,6 +2,7 @@
     $errors = isset($_SESSION["errors"]) ? $_SESSION["errors"] : null;
     $old = isset($_SESSION["old"]) ? $_SESSION["old"] : null;
     $denied = $errors && isset($_SESSION["errors"]["denied"]);
+    flushFlashes();
 ?>
 
 <?php if ($denied) : ?>

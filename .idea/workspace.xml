@@ -3,9 +3,1694 @@
   <component name="ChangeListManager">
     <list default="true" id="b81d5483-530d-4ed9-96f3-492bbae07520" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controllers/TasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/TasksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DB/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DB/QueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/regular.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/solid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/solid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/svg-with-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/svg-with-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/v4-shims.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/v4-shims.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/brands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/brands.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/conflict-detection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/conflict-detection.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/fontawesome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/fontawesome.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/regular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/regular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/solid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/solid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/v4-shims.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/v4-shims.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_shims.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/_variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/brands.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/fontawesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/regular.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/solid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/less/v4-shims.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/metadata/categories.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/metadata/icons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/metadata/icons.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/metadata/shims.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/metadata/shims.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/metadata/sponsors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_shims.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/brands.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/fontawesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/regular.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/solid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/v4-shims.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sprites/brands.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sprites/regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sprites/solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/500px.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/accessible-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/accusoft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/acquisitions-incorporated.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/adn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/adobe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/adversal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/affiliatetheme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/airbnb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/algolia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/alipay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/amazon-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/amazon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/amilia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/angellist.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/angrycreative.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/angular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/app-store-ios.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/app-store.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/apper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/apple-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/apple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/artstation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/asymmetrik.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/atlassian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/audible.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/autoprefixer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/avianex.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/aviato.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/aws.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/bandcamp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/battle-net.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/behance-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/behance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/bimobject.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/bitbucket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/bitcoin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/bity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/black-tie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/blackberry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/blogger-b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/blogger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/bluetooth-b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/bluetooth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/bootstrap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/btc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/buffer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/buromobelexperte.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/buy-n-large.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/buysellads.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/canadian-maple-leaf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cc-amazon-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cc-amex.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cc-apple-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cc-diners-club.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cc-discover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cc-jcb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cc-mastercard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cc-paypal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cc-stripe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cc-visa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/centercode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/centos.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/chrome.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/chromecast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cloudscale.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cloudsmith.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cloudversify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/codepen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/codiepie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/confluence.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/connectdevelop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/contao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cotton-bureau.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cpanel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-by.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-nc-eu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-nc-jp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-nc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-nd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-pd-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-pd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-remix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-sa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-sampling-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-sampling.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons-zero.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/creative-commons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/critical-role.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/css3-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/css3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/cuttlefish.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/d-and-d-beyond.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/d-and-d.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/dailymotion.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/dashcube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/delicious.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/deploydog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/deskpro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/dev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/deviantart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/dhl.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/diaspora.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/digg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/digital-ocean.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/discord.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/discourse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/dochub.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/docker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/draft2digital.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/dribbble-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/dribbble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/dropbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/drupal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/dyalog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/earlybirds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/ebay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/edge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/elementor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/ello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/ember.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/empire.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/envira.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/erlang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/ethereum.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/etsy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/evernote.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/expeditedssl.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/facebook-f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/facebook-messenger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/facebook-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/fantasy-flight-games.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/fedex.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/fedora.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/figma.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/firefox-browser.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/firefox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/first-order-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/first-order.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/firstdraft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/flickr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/flipboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/fly.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/font-awesome-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/font-awesome-flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/font-awesome-logo-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/font-awesome.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/fonticons-fi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/fonticons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/fort-awesome-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/fort-awesome.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/forumbee.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/foursquare.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/free-code-camp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/freebsd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/fulcrum.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/galactic-republic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/galactic-senate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/get-pocket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/gg-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/gg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/git-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/git-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/git.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/github-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/github-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/gitkraken.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/gitlab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/gitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/glide-g.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/glide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/gofore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/goodreads-g.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/goodreads.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/google-drive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/google-play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/google-plus-g.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/google-plus-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/google-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/google-wallet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/gratipay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/grav.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/gripfire.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/grunt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/gulp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/hacker-news-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/hacker-news.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/hackerrank.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/hips.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/hire-a-helper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/hooli.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/hornbill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/hotjar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/houzz.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/html5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/hubspot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/ideal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/imdb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/instagram-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/intercom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/internet-explorer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/invision.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/ioxhost.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/itch-io.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/itunes-note.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/itunes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/java.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/jedi-order.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/jenkins.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/jira.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/joget.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/joomla.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/js-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/js.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/jsfiddle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/kaggle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/keybase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/keycdn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/kickstarter-k.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/kickstarter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/korvue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/laravel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/lastfm-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/lastfm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/leanpub.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/less.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/linkedin-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/linode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/linux.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/lyft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/magento.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/mailchimp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/mandalorian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/markdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/mastodon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/maxcdn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/mdb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/medapps.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/medium-m.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/medrt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/meetup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/megaport.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/mendeley.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/microblog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/microsoft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/mix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/mixcloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/mixer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/mizuni.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/modx.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/monero.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/napster.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/neos.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/nimblr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/node-js.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/node.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/npm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/ns8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/nutritionix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/odnoklassniki-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/odnoklassniki.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/old-republic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/opencart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/openid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/opera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/optin-monster.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/orcid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/osi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/page4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/pagelines.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/palfed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/patreon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/paypal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/penny-arcade.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/periscope.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/phabricator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/phoenix-framework.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/phoenix-squadron.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/php.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/pied-piper-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/pied-piper-hat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/pied-piper-pp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/pied-piper-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/pied-piper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/pinterest-p.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/pinterest-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/pinterest.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/playstation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/product-hunt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/pushed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/python.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/qq.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/quinscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/quora.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/r-project.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/raspberry-pi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/ravelry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/reacteurope.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/readme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/rebel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/red-river.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/reddit-alien.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/reddit-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/reddit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/redhat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/renren.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/replyd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/researchgate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/resolving.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/rev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/rocketchat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/rockrms.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/safari.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/salesforce.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/sass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/schlix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/scribd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/searchengin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/sellcast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/sellsy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/servicestack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/shirtsinbulk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/shopify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/shopware.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/simplybuilt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/sistrix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/sith.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/sketch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/skyatlas.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/skype.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/slack-hash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/slack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/slideshare.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/snapchat-ghost.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/snapchat-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/snapchat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/soundcloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/sourcetree.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/speakap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/speaker-deck.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/spotify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/squarespace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/stack-exchange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/stack-overflow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/stackpath.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/staylinked.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/steam-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/steam-symbol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/steam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/sticker-mule.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/strava.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/stripe-s.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/stripe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/studiovinari.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/stumbleupon-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/stumbleupon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/superpowers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/supple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/suse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/swift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/symfony.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/teamspeak.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/telegram-plane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/telegram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/tencent-weibo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/the-red-yeti.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/themeco.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/themeisle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/think-peaks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/trade-federation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/trello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/tripadvisor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/tumblr-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/tumblr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/twitch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/twitter-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/typo3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/uber.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/ubuntu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/uikit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/umbraco.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/uniregistry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/unity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/untappd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/ups.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/usb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/usps.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/ussunnah.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/vaadin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/viacoin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/viadeo-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/viadeo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/viber.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/vimeo-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/vimeo-v.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/vimeo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/vine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/vnv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/vuejs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/waze.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/weebly.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/weibo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/weixin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/whatsapp-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/whatsapp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/whmcs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/wikipedia-w.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/windows.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/wix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/wizards-of-the-coast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/wolf-pack-battalion.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/wordpress-simple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/wordpress.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/wpbeginner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/wpexplorer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/wpforms.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/wpressr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/xbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/xing-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/xing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/y-combinator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/yahoo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/yammer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/yandex-international.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/yandex.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/yarn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/yelp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/yoast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/youtube-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/brands/zhihu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/address-book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/address-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/angry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/arrow-alt-circle-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/arrow-alt-circle-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/arrow-alt-circle-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/arrow-alt-circle-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/bell-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/bell.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/bookmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/building.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/calendar-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/calendar-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/calendar-minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/calendar-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/calendar-times.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/caret-square-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/caret-square-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/caret-square-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/caret-square-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/chart-bar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/check-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/check-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/clipboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/clone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/closed-captioning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/comment-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/comment-dots.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/comment.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/comments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/compass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/copyright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/credit-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/dizzy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/dot-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/envelope-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/envelope.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/eye-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/file-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/file-archive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/file-audio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/file-code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/file-excel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/file-image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/file-pdf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/file-powerpoint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/file-video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/file-word.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/flushed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/folder-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/folder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/font-awesome-logo-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/frown-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/frown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/futbol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/gem.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grimace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-beam-sweat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-beam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-squint-tears.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-squint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-stars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-tears.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-tongue-squint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-tongue-wink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-tongue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin-wink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/grin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hand-lizard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hand-paper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hand-peace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hand-point-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hand-point-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hand-point-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hand-point-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hand-pointer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hand-rock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hand-scissors.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hand-spock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/handshake.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hdd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hospital.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/hourglass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/id-badge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/id-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/images.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/keyboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/kiss-beam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/kiss-wink-heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/kiss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/laugh-beam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/laugh-squint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/laugh-wink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/laugh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/lemon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/life-ring.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/lightbulb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/list-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/meh-blank.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/meh-rolling-eyes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/meh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/minus-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/money-bill-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/moon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/newspaper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/object-group.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/object-ungroup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/paper-plane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/pause-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/play-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/plus-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/question-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/registered.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/sad-cry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/sad-tear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/share-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/smile-beam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/smile-wink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/smile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/snowflake.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/star-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/sticky-note.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/stop-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/sun.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/surprise.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/thumbs-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/thumbs-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/times-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/tired.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/trash-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/user-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/window-close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/window-maximize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/window-minimize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/regular/window-restore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/address-book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/address-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/adjust.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/air-freshener.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/align-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/align-justify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/align-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/align-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/allergies.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ambulance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/american-sign-language-interpreting.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/anchor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/angle-double-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/angle-double-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/angle-double-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/angle-double-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/angle-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/angle-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/angle-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/angle-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/angry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ankh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/apple-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/archive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/archway.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-alt-circle-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-alt-circle-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-alt-circle-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-alt-circle-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-circle-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-circle-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-circle-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-circle-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrow-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrows-alt-h.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrows-alt-v.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/arrows-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/assistive-listening-systems.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/asterisk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/at.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/atlas.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/atom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/audio-description.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/award.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/baby-carriage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/baby.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/backspace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/backward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bacon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bahai.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/balance-scale-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/balance-scale-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/balance-scale.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ban.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/band-aid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/barcode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/baseball-ball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/basketball-ball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bath.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/battery-empty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/battery-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/battery-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/battery-quarter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/battery-three-quarters.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/beer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bell-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bell.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bezier-curve.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bible.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bicycle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/biking.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/binoculars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/biohazard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/birthday-cake.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/blender-phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/blender.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/blind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/blog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bolt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bomb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bong.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/book-dead.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/book-medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/book-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/book-reader.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bookmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/border-all.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/border-none.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/border-style.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bowling-ball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/box-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/box-tissue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/box.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/boxes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/braille.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/brain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bread-slice.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/briefcase-medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/briefcase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/broadcast-tower.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/broom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/brush.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bug.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/building.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bullhorn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bullseye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/burn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bus-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/bus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/business-time.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/calculator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/calendar-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/calendar-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/calendar-day.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/calendar-minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/calendar-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/calendar-times.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/calendar-week.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/camera-retro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/campground.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/candy-cane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cannabis.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/capsules.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/car-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/car-battery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/car-crash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/car-side.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/car.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/caravan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/caret-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/caret-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/caret-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/caret-square-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/caret-square-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/caret-square-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/caret-square-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/caret-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/carrot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cart-arrow-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cart-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cash-register.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/certificate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chair.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chalkboard-teacher.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chalkboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/charging-station.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chart-area.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chart-bar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chart-line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chart-pie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/check-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/check-double.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/check-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cheese.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chess-bishop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chess-board.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chess-king.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chess-knight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chess-pawn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chess-queen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chess-rook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chess.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chevron-circle-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chevron-circle-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chevron-circle-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chevron-circle-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chevron-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chevron-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chevron-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/chevron-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/child.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/church.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/circle-notch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/city.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/clinic-medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/clipboard-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/clipboard-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/clipboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/clone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/closed-captioning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cloud-download-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cloud-meatball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cloud-moon-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cloud-moon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cloud-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cloud-showers-heavy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cloud-sun-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cloud-sun.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cloud-upload-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cocktail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/code-branch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/coffee.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cogs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/coins.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/columns.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/comment-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/comment-dollar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/comment-dots.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/comment-medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/comment-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/comment.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/comments-dollar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/comments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/compact-disc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/compass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/compress-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/compress-arrows-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/compress.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/concierge-bell.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cookie-bite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cookie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/copyright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/couch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/credit-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/crop-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/crop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cross.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/crosshairs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/crow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/crown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/crutch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cubes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/cut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/database.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/deaf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/democrat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/desktop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dharmachakra.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/diagnoses.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dice-d20.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dice-d6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dice-five.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dice-four.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dice-one.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dice-six.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dice-three.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dice-two.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dice.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/digital-tachograph.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/directions.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/disease.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/divide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dizzy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dna.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dollar-sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dolly-flatbed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dolly.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/donate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/door-closed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/door-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dot-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dove.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/drafting-compass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dragon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/draw-polygon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/drum-steelpan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/drum.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/drumstick-bite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dumbbell.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dumpster-fire.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dumpster.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/dungeon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/egg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/eject.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ellipsis-h.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ellipsis-v.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/envelope-open-text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/envelope-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/envelope-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/envelope.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/equals.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/eraser.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ethernet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/euro-sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/exchange-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/exclamation-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/exclamation-triangle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/exclamation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/expand-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/expand-arrows-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/expand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/external-link-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/external-link-square-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/eye-dropper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/eye-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fast-backward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fast-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/faucet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fax.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/feather-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/feather.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/female.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fighter-jet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-archive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-audio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-contract.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-csv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-excel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-export.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-import.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-invoice-dollar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-invoice.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-medical-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-pdf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-powerpoint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-prescription.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-signature.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file-word.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fill-drip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/film.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/filter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fingerprint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fire-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fire-extinguisher.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fire.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/first-aid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fish.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/fist-raised.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/flag-checkered.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/flag-usa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/flask.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/flushed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/folder-minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/folder-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/folder-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/folder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/font-awesome-logo-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/font.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/football-ball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/frog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/frown-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/frown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/funnel-dollar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/futbol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/gamepad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/gas-pump.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/gavel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/gem.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/genderless.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ghost.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/gift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/gifts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/glass-cheers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/glass-martini-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/glass-martini.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/glass-whiskey.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/glasses.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/globe-africa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/globe-americas.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/globe-asia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/globe-europe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/golf-ball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/gopuram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/graduation-cap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/greater-than-equal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/greater-than.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grimace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-beam-sweat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-beam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-squint-tears.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-squint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-stars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-tears.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-tongue-squint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-tongue-wink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-tongue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin-wink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grip-horizontal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grip-lines-vertical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grip-lines.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/grip-vertical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/guitar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/h-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hamburger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hammer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hamsa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-holding-heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-holding-medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-holding-usd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-holding-water.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-holding.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-lizard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-middle-finger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-paper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-peace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-point-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-point-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-point-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-point-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-pointer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-rock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-scissors.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-sparkles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hand-spock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hands-helping.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hands-wash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hands.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/handshake-alt-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/handshake-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/handshake.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hanukiah.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hard-hat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hashtag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hat-cowboy-side.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hat-cowboy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hat-wizard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hdd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/head-side-cough-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/head-side-cough.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/head-side-mask.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/head-side-virus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/heading.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/headphones-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/headphones.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/headset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/heart-broken.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/heartbeat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/helicopter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/highlighter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hiking.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hippo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/history.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hockey-puck.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/holly-berry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/horse-head.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/horse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hospital-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hospital-symbol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hospital-user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hospital.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hot-tub.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hotdog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hotel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hourglass-end.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hourglass-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hourglass-start.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hourglass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/house-damage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/house-user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/hryvnia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/i-cursor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ice-cream.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/icicles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/id-badge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/id-card-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/id-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/igloo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/images.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/inbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/indent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/industry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/infinity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/info-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/info.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/jedi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/joint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/journal-whills.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/kaaba.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/keyboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/khanda.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/kiss-beam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/kiss-wink-heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/kiss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/kiwi-bird.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/landmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/language.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/laptop-code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/laptop-house.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/laptop-medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/laptop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/laugh-beam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/laugh-squint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/laugh-wink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/laugh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/layer-group.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/leaf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/lemon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/less-than-equal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/less-than.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/level-down-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/level-up-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/life-ring.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/lightbulb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/lira-sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/list-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/list-ol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/list-ul.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/location-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/lock-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/long-arrow-alt-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/long-arrow-alt-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/long-arrow-alt-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/long-arrow-alt-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/low-vision.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/luggage-cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/lungs-virus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/lungs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/magic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/magnet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mail-bulk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/male.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/map-marked-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/map-marked.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/map-marker-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/map-marker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/map-pin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/map-signs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/marker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mars-double.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mars-stroke-h.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mars-stroke-v.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mars-stroke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mask.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/medal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/medkit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/meh-blank.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/meh-rolling-eyes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/meh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/memory.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/menorah.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mercury.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/meteor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/microchip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/microphone-alt-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/microphone-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/microphone-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/microphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/microscope.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/minus-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/minus-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mitten.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mobile-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/money-bill-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/money-bill-wave-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/money-bill-wave.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/money-bill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/money-check-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/money-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/monument.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/moon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mortar-pestle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mosque.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/motorcycle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mountain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mouse-pointer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mouse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/mug-hot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/music.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/network-wired.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/neuter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/newspaper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/not-equal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/notes-medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/object-group.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/object-ungroup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/oil-can.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/om.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/otter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/outdent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pager.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/paint-brush.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/paint-roller.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/palette.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pallet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/paper-plane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/paperclip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/parachute-box.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/paragraph.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/parking.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/passport.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pastafarianism.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/paste.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pause-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pause.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/paw.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/peace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pen-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pen-fancy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pen-nib.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pen-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pencil-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pencil-ruler.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/people-arrows.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/people-carry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pepper-hot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/percent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/percentage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/person-booth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/phone-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/phone-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/phone-square-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/phone-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/phone-volume.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/photo-video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/piggy-bank.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pills.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pizza-slice.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/place-of-worship.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/plane-arrival.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/plane-departure.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/plane-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/plane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/play-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/plug.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/plus-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/plus-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/podcast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/poll-h.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/poll.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/poo-storm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/poo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/poop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/portrait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pound-sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/power-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pray.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/praying-hands.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/prescription-bottle-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/prescription-bottle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/prescription.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/procedures.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/project-diagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pump-medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/pump-soap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/puzzle-piece.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/qrcode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/question-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/question.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/quidditch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/quote-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/quote-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/quran.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/radiation-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/radiation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/rainbow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/random.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/receipt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/record-vinyl.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/recycle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/redo-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/redo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/registered.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/remove-format.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/reply-all.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/reply.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/republican.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/restroom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/retweet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ribbon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ring.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/road.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/robot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/rocket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/route.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/rss-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/rss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ruble-sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ruler-combined.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ruler-horizontal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ruler-vertical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ruler.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/running.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/rupee-sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sad-cry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sad-tear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/satellite-dish.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/satellite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/school.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/screwdriver.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/scroll.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sd-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/search-dollar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/search-location.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/search-minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/search-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/seedling.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/server.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/share-alt-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/share-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/share-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/shekel-sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/shield-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/shield-virus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ship.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/shipping-fast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/shoe-prints.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/shopping-bag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/shopping-basket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/shopping-cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/shower.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/shuttle-van.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sign-in-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sign-language.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sign-out-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/signal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/signature.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sim-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sitemap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/skating.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/skiing-nordic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/skiing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/skull-crossbones.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/skull.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sleigh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sliders-h.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/smile-beam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/smile-wink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/smile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/smog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/smoking-ban.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/smoking.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sms.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/snowboarding.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/snowflake.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/snowman.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/snowplow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/soap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/socks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/solar-panel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-alpha-down-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-alpha-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-alpha-up-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-alpha-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-amount-down-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-amount-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-amount-up-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-amount-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-numeric-down-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-numeric-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-numeric-up-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-numeric-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sort.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/spa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/space-shuttle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/spell-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/spider.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/spinner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/splotch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/spray-can.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/square-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/square-root-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/stamp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/star-and-crescent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/star-half-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/star-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/star-of-david.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/star-of-life.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/step-backward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/step-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/stethoscope.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sticky-note.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/stop-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/stop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/stopwatch-20.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/stopwatch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/store-alt-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/store-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/store-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/store.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/stream.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/street-view.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/strikethrough.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/stroopwafel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/subscript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/subway.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/suitcase-rolling.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/suitcase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sun.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/superscript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/surprise.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/swatchbook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/swimmer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/swimming-pool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/synagogue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sync-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/sync.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/syringe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/table-tennis.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/table.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tablet-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tablet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tablets.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tachometer-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tags.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tasks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/taxi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/teeth-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/teeth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/temperature-high.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/temperature-low.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tenge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/terminal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/text-height.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/text-width.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/th-large.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/th-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/th.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/theater-masks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/thermometer-empty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/thermometer-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/thermometer-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/thermometer-quarter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/thermometer-three-quarters.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/thermometer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/thumbs-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/thumbs-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/thumbtack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/ticket-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/times-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/times.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tint-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tired.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/toggle-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/toggle-on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/toilet-paper-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/toilet-paper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/toilet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/toolbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tools.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tooth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/torah.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/torii-gate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tractor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/trademark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/traffic-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/trailer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/train.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/transgender-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/transgender.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/trash-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/trash-restore-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/trash-restore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/trash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tree.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/trophy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/truck-loading.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/truck-monster.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/truck-moving.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/truck-pickup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/truck.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tshirt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/tv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/umbrella-beach.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/umbrella.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/underline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/undo-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/undo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/universal-access.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/university.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/unlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/unlock-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/unlock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-alt-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-astronaut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-cog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-friends.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-graduate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-injured.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-md.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-ninja.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-nurse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-secret.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-shield.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-tag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-tie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user-times.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/users-cog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/utensil-spoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/utensils.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/vector-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/venus-double.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/venus-mars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/venus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/vial.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/vials.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/video-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/vihara.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/virus-slash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/virus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/viruses.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/voicemail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/volleyball-ball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/volume-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/volume-mute.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/volume-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/volume-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/vote-yea.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/vr-cardboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/walking.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/wallet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/warehouse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/water.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/wave-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/weight-hanging.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/weight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/wheelchair.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/wifi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/window-close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/window-maximize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/window-minimize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/window-restore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/wine-bottle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/wine-glass-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/wine-glass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/won-sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/wrench.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/x-ray.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/yen-sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/svgs/solid/yin-yang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/auth/login.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/login.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layouts/app.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/app.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/tasks/create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/tasks/create.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/tasks/edit.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/tasks/edit.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/tasks/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/tasks/index.view.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,29 +1708,14 @@
       <file leaf-file-name="TasksController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controllers/TasksController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="857">
+              <caret line="86" column="59" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
               <folding>
                 <element signature="e#35#47#0#PHP" expanded="true" />
+                <element signature="e#132#516#0#PHP" />
+                <element signature="e#522#595#0#PHP" />
+                <element signature="e#601#743#0#PHP" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Request.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Request.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryBuilder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DB/QueryBuilder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -53,8 +1723,11 @@
       <file leaf-file-name="index.view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/tasks/index.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="494">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="e#645#652#1#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,35 +1735,17 @@
       <file leaf-file-name="app.view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layouts/app.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="111" selection-start-line="13" selection-start-column="111" selection-end-line="13" selection-end-column="111" />
+            <state relative-caret-position="567">
+              <caret line="59" column="202" selection-start-line="59" selection-start-column="202" selection-end-line="59" selection-end-column="202" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <file leaf-file-name="login.view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/auth/login.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tasks/edit.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="57" column="118" selection-start-line="57" selection-start-column="118" selection-end-line="57" selection-end-column="118" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tasks/create.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="45" column="50" selection-end-line="61" selection-end-column="6" />
+            <state relative-caret-position="171">
+              <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -134,18 +1789,18 @@
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/app/Request.php" />
         <option value="$PROJECT_DIR$/app/Auth/Auth.php" />
-        <option value="$PROJECT_DIR$/views/auth/login.view.php" />
         <option value="$PROJECT_DIR$/app/Router.php" />
         <option value="$PROJECT_DIR$/app/Controllers/Controller.php" />
-        <option value="$PROJECT_DIR$/views/tasks/create.view.php" />
         <option value="$PROJECT_DIR$/app/Validator.php" />
         <option value="$PROJECT_DIR$/app/Models/Task.php" />
-        <option value="$PROJECT_DIR$/bootstrap/core.php" />
-        <option value="$PROJECT_DIR$/app/Controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/views/tasks/edit.view.php" />
-        <option value="$PROJECT_DIR$/views/layouts/app.view.php" />
         <option value="$PROJECT_DIR$/app/DB/QueryBuilder.php" />
+        <option value="$PROJECT_DIR$/views/tasks/create.view.php" />
+        <option value="$PROJECT_DIR$/views/tasks/edit.view.php" />
+        <option value="$PROJECT_DIR$/app/Controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/views/auth/login.view.php" />
+        <option value="$PROJECT_DIR$/bootstrap/core.php" />
+        <option value="$PROJECT_DIR$/views/layouts/app.view.php" />
         <option value="$PROJECT_DIR$/app/Controllers/TasksController.php" />
         <option value="$PROJECT_DIR$/views/tasks/index.view.php" />
       </list>
@@ -280,12 +1935,12 @@
       <workItem from="1587139727216" duration="7076000" />
       <workItem from="1587197784709" duration="32573000" />
       <workItem from="1587241559931" duration="472000" />
-      <workItem from="1587242747591" duration="8922000" />
+      <workItem from="1587242747591" duration="10146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49043000" />
+    <option name="totallyTimeSpent" value="50267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,7 +1962,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32819384" />
@@ -363,6 +2018,9 @@
           <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
           <folding>
             <element signature="e#35#47#0#PHP" expanded="true" />
+            <element signature="e#132#516#0#PHP" />
+            <element signature="e#522#595#0#PHP" />
+            <element signature="e#601#743#0#PHP" />
           </folding>
         </state>
       </provider>
@@ -501,20 +2159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/auth/login.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="24" column="73" lean-forward="true" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Validator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -522,35 +2166,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Task.php" />
-    <entry file="file://$PROJECT_DIR$/app/Controllers/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/tasks/create.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="45" column="50" selection-end-line="61" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -558,17 +2174,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/tasks/edit.view.php">
+    <entry file="file://$PROJECT_DIR$/app/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="57" column="118" selection-start-line="57" selection-start-column="118" selection-end-line="57" selection-end-column="118" />
+        <state relative-caret-position="156">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/app.view.php">
+    <entry file="file://$PROJECT_DIR$/views/tasks/create.view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="111" selection-start-line="13" selection-start-column="111" selection-end-line="13" selection-end-column="111" />
+        <state relative-caret-position="26">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tasks/edit.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -579,20 +2209,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#35#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/app.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="59" column="202" selection-start-line="59" selection-start-column="202" selection-end-line="59" selection-end-column="202" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Controllers/TasksController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="857">
+          <caret line="86" column="59" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
           <folding>
             <element signature="e#35#47#0#PHP" expanded="true" />
+            <element signature="e#132#516#0#PHP" />
+            <element signature="e#522#595#0#PHP" />
+            <element signature="e#601#743#0#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/auth/login.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/tasks/index.view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="494">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#645#652#1#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Request;
 use App\Validator;
 
-class LoginController extends Controller
+class LoginController
 {
     public function showLoginForm()
     {
@@ -22,7 +22,7 @@ class LoginController extends Controller
         if ($validator->hasErrors()) {
             $validator->withErrors()->redirect('login');
         }
-        $this->flushErrors();
+
         $login = htmlspecialchars(Request::get('login'));
         $password = htmlspecialchars(Request::get('password'));
 

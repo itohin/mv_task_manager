@@ -1,6 +1,7 @@
 <?php
-$errors = isset($_SESSION["errors"]) ? $_SESSION["errors"] : null;
-$old = isset($_SESSION["old"]) ? $_SESSION["old"] : null;
+    $errors = isset($_SESSION["errors"]) ? $_SESSION["errors"] : null;
+    $old = isset($_SESSION["old"]) ? $_SESSION["old"] : null;
+    flushFlashes();
 ?>
 
 <div class="container d-flex justify-content-center">

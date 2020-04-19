@@ -6,7 +6,7 @@ use App\App;
 use App\Request;
 use App\Validator;
 
-class TasksController extends Controller
+class TasksController
 {
     public function index()
     {
@@ -45,7 +45,7 @@ class TasksController extends Controller
         if ($validator->hasErrors()) {
             $validator->withErrors()->redirect('tasks/create');
         }
-        $this->flushErrors();
+
         $date = date('Y-m-d H:i:s');
 
         $fields = [
@@ -57,6 +57,7 @@ class TasksController extends Controller
         ];
 
         App::get('db')->insert('tasks', $fields);
+        $_SESSION['flash'] = 'Task was successfully created';
 
         header("Location: /");
         exit;
@@ -67,9 +68,9 @@ class TasksController extends Controller
     {
         $validator = $this->validateRequest(Request::all())->validate();
         if ($validator->hasErrors()) {
-            $validator->withErrors()->redirect('tasks/create');
+            $validator->withErrors()->redirect("/tasks/{$id}");
         }
-        $this->flushErrors();
+
         $date = date('Y-m-d H:i:s');
 
         $done = boolval(Request::get('done'));
@@ -83,6 +84,7 @@ class TasksController extends Controller
         ];
 
         App::get('db')->update('tasks', $fields, $id);
+        $_SESSION['flash'] = 'Task was successfully updated';
 
         header("Location: /");
         exit;

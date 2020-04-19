@@ -29,3 +29,16 @@ function dd($value)
     die();
 }
 
+function flushFlashes()
+{
+    if (isset($_SESSION['errors'])) {
+        unset($_SESSION['errors']);
+    }
+    if (isset($_SESSION['old'])) {
+        unset($_SESSION['old']);
+    }
+    if (isset($_SESSION['flash'])) {
+        unset($_SESSION['flash']);
+    }
+}
+
