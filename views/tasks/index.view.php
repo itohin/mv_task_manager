@@ -6,6 +6,28 @@
 </section>
 
 <div class="container w-75 pb-5">
+
+    <div class="mb-5">
+        <div class="d-flex justify-content-center">
+            <a href="/?page=<?= $page ?>&field=name&sort=<?= $sort == 'asc' ? 'desc' : 'asc' ?>" class="btn btn-light">
+                Name
+                <?php if ($field == 'name' && $sort == 'asc') : ?>
+                    <i class="fa fa-angle-up"></i>
+                <?php else : ?>
+                    <i class="fa fa-angle-down"></i>
+                <?php endif ?>
+            </a>
+            <a href="/?page=<?= $page ?>&field=email&sort=<?= $sort == 'asc' ? 'desc' : 'asc' ?>" class="btn btn-light ml-5">
+                Email
+                <?php if ($field == 'email' && $sort == 'asc') : ?>
+                    <i class="fa fa-angle-up"></i>
+                <?php else : ?>
+                    <i class="fa fa-angle-down"></i>
+                <?php endif ?>
+            </a>
+        </div>
+    </div>
+
     <?php foreach ($tasks as $task): ?>
         <div class="card mb-4">
             <div class="card-header">
@@ -14,6 +36,9 @@
                     <span class="badge badge-success ml-2">Done</span>
                 <?php else : ?>
                     <span class="badge badge-warning ml-2">In progress</span>
+                <?php endif ?>
+                <?php if ($task->created_at < $task->updated_at) : ?>
+                    <span class="badge badge-info right">Edited by administrator</span>
                 <?php endif ?>
             </div>
             <div class="card-body">
@@ -33,7 +58,7 @@
             <ul class="pagination">
                 <li class="page-item">
                     <?php if ($page > 1) : ?>
-                        <a class="page-link" href="?page=<?= $page - 1 ?>">Previous</a>
+                        <a class="page-link" href="?page=<?= $page - 1 ?>&field=<?= $field ?>&sort=<?= $sort ?>">Previous</a>
                     <?php endif ?>
                 </li>
                 <?php  for ($i = 1; $i <= $total; $i ++) :?>
@@ -41,12 +66,12 @@
                         <?php if ($i == $page) : ?>
                             <a class="page-link"><?= $i ?></a>
                         <?php else : ?>
-                            <a class="page-link" href="?page=<?= $i ?>"><?= $i ?></a>
+                            <a class="page-link" href="?page=<?= $i ?>&field=<?= $field ?>&sort=<?= $sort ?>"><?= $i ?></a>
                         <?php endif ?>
                     </li>
                 <?php endfor ?>
                 <?php if ($page < $total) : ?>
-                    <a class="page-link" href="?page=<?= $page + 1 ?>">Next</a>
+                    <a class="page-link" href="?page=<?= $page + 1 ?>&field=<?= $field ?>&sort=<?= $sort ?>">Next</a>
                 <?php endif ?>
             </ul>
         </nav>

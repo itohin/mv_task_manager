@@ -10,6 +10,12 @@ class TasksController extends Controller
 {
     public function index()
     {
+        $field = Request::get('field');
+        $sort = Request::get('sort');
+
+        $field = $field ? $field : 'name';
+        $sort = $sort ? $sort : 'asc';
+
         $limit = 3;
         $count = App::get('db')->count('tasks');
         $total = ceil($count / $limit);
@@ -17,8 +23,8 @@ class TasksController extends Controller
         $startingLimit = ($page - 1) * $limit;
 
 
-        $tasks = App::get('db')->select('tasks')->paginate($startingLimit, $limit)->get();
-        return view('tasks/index', compact('tasks', 'total', 'page'));
+        $tasks = App::get('db')->select('tasks')->order($field, $sort)->paginate($startingLimit, $limit)->get();
+        return view('tasks/index', compact('tasks', 'total', 'page', 'field', 'sort'));
     }
 
     public function create()

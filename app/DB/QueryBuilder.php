@@ -34,9 +34,16 @@ class QueryBuilder
 
     public function select($table)
     {
-        $statement = "select * from {$table} order by id desc";
+        $statement = "select * from {$table}";
 
         $this->statement = $statement;
+
+        return $this;
+    }
+
+    public function order($field = 'id', $sort = 'desc')
+    {
+        $this->statement .= " order by {$field} {$sort}";
 
         return $this;
     }
